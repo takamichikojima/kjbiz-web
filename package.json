@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://takamichikojima.github.io/kjbiz-web",
+  "homepage": "https://kjbiz.jp",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
