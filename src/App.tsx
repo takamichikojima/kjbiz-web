@@ -192,7 +192,8 @@ export default function App() {
 function Logo() {
   return <img src="/favicon.svg" alt="Logo" className="size-9 rounded-2xl" />;
 }
-function MacWindow({ children }: { children: React.ReactNode }) {
+
+export function MacWindow({ children }: { children: React.ReactNode }) {
   return (
     <div className="soft-card overflow-hidden">
       <div
@@ -208,7 +209,7 @@ function MacWindow({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
-function Card({ title, points }: { title: string; points: string[] }) {
+export function Card({ title, points }: { title: string; points: string[] }) {
   return (
     <div className="soft-card p-5">
       <div className="font-semibold text-lg">{title}</div>
@@ -220,7 +221,7 @@ function Card({ title, points }: { title: string; points: string[] }) {
     </div>
   );
 }
-function KPI({ kpi, text }: { kpi: string; text: string }) {
+export function KPI({ kpi, text }: { kpi: string; text: string }) {
   return (
     <div className="soft-card p-6">
       <div className="text-3xl font-extrabold text-primary">{kpi}</div>
@@ -244,7 +245,7 @@ function Check(props: React.SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
-function Sparkle(props: React.SVGProps<SVGSVGElement>) {
+export function Sparkle(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" {...props}>
       <path
@@ -269,7 +270,7 @@ function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
-function CalendarIcon(props: React.SVGProps<SVGSVGElement>) {
+export function CalendarIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" {...props}>
       <rect x="3" y="5" width="18" height="16" rx="2" />
