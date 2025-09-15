@@ -58,9 +58,8 @@ export default function App() {
 
       {/* PROFILE */}
       <section id="profile" className="py-14 bg-slate-50/70 border-y scroll-mt-[60px]">
-        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 items-start">
-          {/* 左カラム：本文 */}
-          <div className="md:col-span-2">
+        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+          <div className="md:col-span-2 min-w-0">
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">プロフィール</h2>
             <p className="mt-4 text-slate-700 leading-relaxed">
               大手外資系IT企業にて、PLM導入(リプレース)を起点とした業務プロセス改善／開発生産性向上／設計製造業務のデータ整流化プロジェクトを牽引。
@@ -147,12 +146,12 @@ export default function App() {
             </div>
           </div>
           <div className="soft-card p-6 text-sm text-slate-600 space-y-3">
-            <div className="font-medium text-slate-800">想定プロジェクト</div>
+            <div className="font-medium text-slate-800">想定支援内容</div>
             <ul className="list-disc ml-5 space-y-1">
-              <li>PLM製品導入に伴う技術選定/機能要件・設計</li>
-              <li>3D × BOM Webビューア設計/ベンダー外部調整</li>
-              <li>サイロ化したマクロの再設計(アドイン/ノーコード化)</li>
-              <li>クラウド基盤をベースにしたWEB構築と運用支援</li>
+              <li>経営抽象課題を実務で機能する仕組みに落とし込む(PLM設計／開発管理／定着見届け)</li>
+              <li>経営層の要求を技術仕様へ変換し、3D×BOM Webビューアの設計と外部ベンダー調整をリード</li>
+              <li>サイロ化したExcelマクロを再設計し、アドイン／ノーコードで組織的に活用可能な仕組みに刷新</li>
+              <li>クラウドを基盤としたWebシステムを設計構築／運用支援</li>
             </ul>
           </div>
         </div>
