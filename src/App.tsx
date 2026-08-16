@@ -146,7 +146,7 @@ export default function App() {
             </div>
           </div>
           <div className="soft-card p-6 text-sm text-slate-600 space-y-3">
-            <div className="font-medium text-slate-800">想定支援内容</div>
+            <div className="font-medium text-slate-800">支援例</div>
             <ul className="list-disc ml-5 space-y-1">
               <li>経営抽象課題を実務で機能する仕組みに落とし込む(PLM設計／開発管理／定着見届け)</li>
               <li>経営層の要求を技術仕様へ変換し、3D×BOM Webビューアの設計と外部ベンダー調整をリード</li>
@@ -164,6 +164,14 @@ export default function App() {
           <div className="flex flex-wrap justify-center gap-4">
             <a href="/simple/" className="font-medium text-primary hover:underline">
               Simpleシリーズ
+            </a>
+            <a
+              href="https://buy.stripe.com/3cI8wPb1V6Xn11r7Jn5c400"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              開発活動を支援
             </a>
             <a
               href="https://github.com/takamichikojima"

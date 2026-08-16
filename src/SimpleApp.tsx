@@ -81,14 +81,17 @@ export default function SimpleApp() {
               <p className="mt-2 text-sm text-slate-600">
                 不具合や改善のご提案は、各GitHubリポジトリからお寄せください。いただいた声を今後の改善に活かしていきます。
               </p>
+              <p className="mt-2 text-sm text-slate-600">
+                もしツールがお役に立ちましたら、今後のツールづくりをご支援いただけるとうれしいです。
+              </p>
             </div>
             <a
-              href="https://github.com/sponsors/takamichikojima"
+              href="https://buy.stripe.com/3cI8wPb1V6Xn11r7Jn5c400"
               target="_blank"
               rel="noopener noreferrer"
               className="soft-btn-primary shrink-0"
             >
-              Sponsorsで応援 <ArrowRight className="size-4" />
+              開発活動を支援する <ArrowRight className="size-4" />
             </a>
           </div>
         </section>
@@ -99,6 +102,7 @@ export default function SimpleApp() {
           <div>Simpleシリーズ</div>
           <div className="flex gap-5">
             <a href="https://github.com/takamichikojima" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
+            <a href="https://buy.stripe.com/3cI8wPb1V6Xn11r7Jn5c400" target="_blank" rel="noopener noreferrer" className="hover:underline">開発活動を支援</a>
             <a href="/" className="hover:underline">事業紹介サイト</a>
           </div>
         </div>
