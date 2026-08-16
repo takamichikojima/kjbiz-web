@@ -9,6 +9,10 @@ export default defineConfig({
   build: {
     assetsDir: 'assets', // 画像/CSS などは assets/ 配下へ
     rollupOptions: {
+      input: {
+        main: 'index.html',
+        simple: 'simple/index.html',
+      },
       output: {
         assetFileNames: 'assets/[name]-[hash][extname]',
         chunkFileNames: 'assets/[name]-[hash].js',
