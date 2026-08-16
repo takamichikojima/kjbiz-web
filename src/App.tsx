@@ -161,7 +161,10 @@ export default function App() {
       <footer className="py-10 border-t bg-white/60">
         <div className="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>© {new Date().getFullYear()} KOJIMA DIGITAL WORKS</div>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="/simple/" className="font-medium text-primary hover:underline">
+              Simpleシリーズ
+            </a>
             <a
               href="https://github.com/takamichikojima"
               target="_blank"
